@@ -1,0 +1,284 @@
+@import url(fonts.css);
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --green: #50a60a;
+    --white: #ffffff;
+    --gray: #a6a6a6;
+    --fRegular: 'Montserrat-Regular';
+    --fBold: 'Montserrat-Bold';
+    --fBlack: 'Montserrat-Black';
+    --fLight: 'Montserrat-Light';
+    --fThin: 'Montserrat-Thin';
+}
+
+.d_flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.color-green {
+    color: var(--green);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+
+/* ------------------------HEADER------------------------ */
+
+header {
+    height: 770px;
+    background: url(../img/header_bg.jpg) no-repeat center center / cover;
+}
+
+header .nav_block {
+    padding-top: 45px;
+    margin-bottom: 190px;
+}
+
+header .nav_block .logo {
+    font-size: 24px;
+    font-family: var(--fBold);
+    text-decoration: none;
+}
+
+header .nav_block .logo:hover {
+    color: var(--white);
+}
+
+header .nav_block ul li a {
+    font-size: 24px;
+    font-family: var(--fRegular);
+    text-decoration: none;
+}
+
+header .nav_block ul li a:hover {
+    color: var(--white);
+}
+
+header button {
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: var(--fRegular);
+    background: var(--green);
+    border: none;
+    border-radius: 40px;
+    padding: 20px 25px;
+    transition: 0.4s;
+}
+
+header button:hover {
+    background: var(--white);
+    color: var(--green);
+    box-shadow: 5px;
+}
+
+header h4 {
+    font-size: 18px;
+    font-family: var(--fBlack);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 72px;
+    font-family: var(--fBlack);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+header p {
+    font-size: 18px;
+    font-family: var(--fRegular);
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.margin-0 {
+    margin-left: 0;
+}
+
+
+/* ------------------HEADER----------------- */
+
+section .tech_block {
+    margin-top: 100px;
+}
+
+section .tech_block img {
+    margin-right: 35px;
+}
+
+section .text_block h3 {
+    font-size: 36px;
+    font-family: var(--fBold);
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+section .text_block p {
+    line-height: 36px;
+    font-size: 18px;
+    font-family: var(--fRegular);
+    margin-bottom: 70px;
+}
+
+.sign_block img {
+    margin-left: 55px;
+    margin-top: -75px;
+}
+
+.menu {
+    margin-top: 60px;
+}
+
+.menu_box {
+    margin-bottom: 50px;
+}
+
+section .menu .img_box {
+    position: relative;
+}
+
+.menu .menu_box .discount {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 14px 5px;
+    background: var(--green);
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: var(--fBold);
+}
+
+.menu h3 {
+    font-size: 36px;
+    font-family: var(--fBold);
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    opacity: 30%;
+}
+
+.menu .text_box {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.menu .text_box h4 {
+    font-size: 30px;
+    font-family: var(--fBold);
+    text-transform: uppercase;
+}
+
+.menu .text_box p {
+    font-size: 14px;
+    font-family: var(--fRegular);
+    /*   line-height: 25px; */
+}
+
+.menu .price_box {
+    margin-top: 25px;
+}
+
+.menu .price_box p {
+    font-size: 30px;
+    font-family: var(--fBold);
+    text-align: center;
+}
+
+.menu .price_box p span {
+    font-size: 18px;
+    font-family: var(--fThin);
+}
+
+.menu .price_box button {
+    font-size: 16px;
+    font-family: var(--fRegular);
+    background: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 40px;
+    padding: 20px 25px;
+    transition: 0.4s;
+}
+
+.menu .price_box button:hover {
+    background: var(--white);
+    color: var(--green);
+}
+
+
+/* ------------------MAIN------------------- */
+
+.row>* {
+    width: 90%;
+}
+
+main h3 {
+    font-size: 14px;
+    font-family: var(--fBold);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+main p {
+    font-size: 14px;
+    font-family: var(--fRegular);
+    text-align: center;
+}
+
+
+/* ------------------FOOTER--------------------- */
+
+footer {
+    padding-top: 45px;
+    padding-bottom: 55px;
+    background-color: black;
+}
+
+footer .nav_block .logo {
+    font-size: 24px;
+    font-family: var(--fBold);
+    text-decoration: none;
+}
+
+footer .nav_block .logo {
+    font-size: 24px;
+    font-family: var(--fBold);
+    text-decoration: none;
+}
+
+footer .nav_block .logo:hover {
+    color: var(--white);
+}
+
+footer .nav_block ul li a {
+    font-size: 24px;
+    font-family: var(--fRegular);
+    text-decoration: none;
+}
+
+footer .nav_block ul li a:hover {
+    color: var(--white);
+}
+
+footer p {
+    font-size: 16px;
+    font-family: var(--fThin);
+    text-align: center;
+    margin-top: 60px;
+}
